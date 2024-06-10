@@ -1,0 +1,55 @@
+algoritmo "Acordar_e_Estudar"
+var
+    despertador: logico
+    abrir_olhos: logico
+    levantar: logico
+    tomar_banho: logico
+    vestir: logico
+    tomar_cafe: logico
+    estudar: logico
+
+inicio
+    // Passo 2: Inicializar as variáveis
+    despertador <- falso
+    abrir_olhos <- falso
+    levantar <- falso
+    tomar_banho <- falso
+    vestir <- falso
+    tomar_cafe <- falso
+    estudar <- falso
+
+    // Passo 3: Simular o processo de acordar
+    despertador <- verdadeiro
+
+    se despertador entao
+        abrir_olhos <- verdadeiro
+        escreval("Passo 1: Abrir os olhos.")
+    fimse
+
+    se abrir_olhos entao
+        levantar <- verdadeiro
+        escreval("Passo 2: Levantar da cama.")
+    fimse
+
+    se levantar entao
+        tomar_banho <- verdadeiro
+        escreval("Passo 3: Tomar banho.")
+    fimse
+
+    se tomar_banho entao
+        vestir <- verdadeiro
+        escreval("Passo 4: Vestir-se.")
+    fimse
+
+    se vestir entao
+        tomar_cafe <- verdadeiro
+        escreval("Passo 5: Tomar café da manhã.")
+    fimse
+
+    se tomar_cafe entao
+        estudar <- verdadeiro
+        escreval("Passo 6: Ir para o computador estudar.")
+    fimse
+
+    escreval("Acordar e estudar completo!")
+fimalgoritmo
