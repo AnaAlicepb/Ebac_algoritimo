@@ -6,12 +6,13 @@
     <meta name="description" content="Descrição do Algoritmo Acordar e Estudar">
     <meta name="keywords" content="Visualg, Algoritmo, Acordar, Estudar">
     <meta name="author" content="Ana Alice Rodrigues">
-    <title>Algoritmo Acordar e Estudar</title>
+
 </head>
 <body>
 
 <header>
     <h1>Algoritmo Acordar e Estudar</h1>
+    <img src="./img/enviar.png" alt="Descrição da imagem" width="300" height="auto">
 </header>
 
 <details>
